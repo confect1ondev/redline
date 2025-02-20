@@ -1,0 +1,75 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "space:font/splitter.png",
+        "ascent": -9999,
+        "height": -2,
+        "chars": [
+          "󀀀"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_1.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_2.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_3.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_4.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_5.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_6.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "bitmap",
+        "file": "minecraft:redline/butcher_gui_7.png",
+        "ascent": 48,
+        "height": 256,
+        "chars": [""]
+      },
+      {
+        "type": "space",
+        "advances": {
+            "󏿐": -48
+        }
+      }
+    ]
+  }

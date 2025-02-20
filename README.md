@@ -1,3 +1,5 @@
-<center><img src="https://cdn.modrinth.com/data/cached_images/3e5c5c86d84ce6dea1f0b1b1a685fada5f8031c3_0.webp" alt="Icon" width=256 height=256></center>
+<p align="center">
+  <a href="https://modrinth.com/mod/redline-cyberware"><img src="https://raw.githubusercontent.com/enbytedev/redline/main/ICON.png" width="250" height="250" /></a>
+</p>
 
 There are two folders in this repository. **Redline** is a bare-bones, modular cybernetic enhancement tool for modpack makers that achieves full functionality with only Palladium and KubeJS. It offers a robust, data-driven system for content creators to develop their own cyberware items. For an example (or if you just want to try out Redline,) see the **Baseline** project.

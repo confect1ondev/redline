@@ -1,0 +1,29 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Advanced neural enhancement processor.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Overclocks synaptic responses for enhanced performance.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Cost: 25",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Enhanced movement speed",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Improved attack speed",
+            "color": "#009d00"
+        }
+    ],
+    "rarity": "rare",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

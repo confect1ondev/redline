@@ -1,0 +1,25 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Advanced subdermal thermal plates make the wearer invulnerable to fire damage.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Cost: 30",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "-100% Fire Damage",
+            "color": "#009d00"
+        },
+        {
+            "text": "-5% Speed",
+            "color": "#9d0000"
+        }
+    ],
+    "rarity": "uncommon",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

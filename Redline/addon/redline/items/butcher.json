@@ -1,0 +1,13 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "This device (known as a Butcher) allows you to view and mange your cyberware on the go!",
+            "color": "#AAAAAA"
+        }
+    ],
+    "rarity": "common",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

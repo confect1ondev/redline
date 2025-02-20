@@ -1,0 +1,17 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Click to eject the component.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Cyberware components are destroyed upon removal.",
+            "color": "#9d0000"
+        }
+    ],
+    "rarity": "rare",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

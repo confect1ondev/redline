@@ -1,0 +1,41 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "The first generation Overlord OS from DaemonWare Labs.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "An entry-level cybernetic operating system.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Capacity: 60",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Basic stabilization systems",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Enhanced combat targeting",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Improved neural response time",
+            "color": "#009d00"
+        },
+        {
+            "text": "- Limited processing power",
+            "color": "#9d0000"
+        },
+        {
+            "text": "- No emergency systems",
+            "color": "#9d0000"
+        }
+    ],
+    "rarity": "rare",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

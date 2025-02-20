@@ -1,0 +1,36 @@
+{
+    "name": "Hydraulic Tendons",
+    "icon": "redline:hydraulic_tendons",
+    "energy_bars": {
+        "hydraulic_pressure": {
+            "max": 300,
+            "auto_increase_per_tick": 1,
+            "auto_increase_interval": 20,
+            "color": "#ff6600"
+        }
+    },
+    "abilities": {
+        "enhanced_mobility": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:leather_boots",
+            "title": "Enhanced Mobility",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Hydraulic assistance enhances movement speed.",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.1,
+            "operation": 2
+        },
+        "power_kick": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:piston",
+            "title": "Power Kick",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Channel hydraulic pressure for enhanced knockback.",
+            "attribute": "minecraft:generic.attack_knockback",
+            "amount": 1,
+            "operation": 0
+        }
+    }
+}

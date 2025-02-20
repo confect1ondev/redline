@@ -1,0 +1,21 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "A small capacitor that can be implanted into a users palm and allow them to fire laser beams.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Cost: 45",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Laser Hands",
+            "color": "#009d00"
+        }
+    ],
+    "rarity": "uncommon",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Neural Overclock",
+    "icon": "baseline:neural_overclock",
+    "abilities": {
+        "enhanced_reflexes": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:sugar",
+            "title": "Accelerated Processing",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Overclocked neural pathways enhance reaction speed and agility.",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.20,
+            "operation": 2
+        },
+        "quick_strikes": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_sword",
+            "title": "Neural Combat Array",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Enhanced synaptic response increases attack speed.",
+            "attribute": "minecraft:generic.attack_speed",
+            "amount": 0.3,
+            "operation": 2
+        }
+    }
+}

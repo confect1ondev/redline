@@ -1,0 +1,43 @@
+{
+    "name": "Plasma Palm",
+    "icon": "redline:plasma_palm",
+    "energy_bars": {
+        "plasma_energy": {
+            "max": 600,
+            "auto_increase_per_tick": 1,
+            "auto_increase_interval": 20,
+            "color": "#00ffff"
+        }
+    },
+    "abilities": {
+        "plasma_beam": {
+            "type": "palladium:energy_beam",
+            "icon": "minecraft:soul_torch",
+            "title": "Plasma Beam",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Channel plasma energy through your palm to fire a concentrated beam.",
+            "energy_beam": "redline:hands_laser",
+            "damage": 7,
+            "max_distance": 10,
+            "speed": 0.6,
+            "set_on_fire_seconds": 1,
+            "cause_fire": false,
+            "smelt_blocks": false,
+            "energy_bar_usage": {
+                "energy_bar": "plasma_energy",
+                "amount": 10
+            },
+            "conditions": {
+                "enabling": {
+                    "type": "palladium:held"
+                },
+                "unlocking": {
+                    "type": "palladium:energy_bar",
+                    "energy_bar": "plasma_energy",
+                    "min": 10
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Thermal Plating",
+  "icon": "redline:thermal_plating",
+  "abilities": {
+      "fire_immunity": {
+          "type": "palladium:damage_immunity",
+          "icon": "minecraft:magma_block",
+          "title": "Fire Immunity",
+          "hidden": false,
+          "hidden_in_bar": false,
+          "description": "Your subdermal thermal plating makes you invincible to fire damage.",
+          "damage_sources": [
+              "minecraft:is_fire"
+          ]
+      },
+      "thermal_weight": {
+          "type": "palladium:attribute_modifier",
+          "icon": "minecraft:iron_boots",
+          "title": "Extra Weight",
+          "hidden": false,
+          "hidden_in_bar": false,
+          "description": "The weight of the thermal plating reduces your movement speed.",
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": 0.03,
+          "operation": 2
+      }
+  }
+}

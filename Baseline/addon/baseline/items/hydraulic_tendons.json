@@ -1,0 +1,29 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Hydraulic leg enhancement system.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Augments leg muscles with pressurized assistance.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Cost: 35",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Enhanced movement speed",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Hydraulic power kicks (more knockback)",
+            "color": "#009d00"
+        }
+    ],
+    "rarity": "rare",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

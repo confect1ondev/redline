@@ -1,0 +1,11 @@
+{
+    "schemaVersion": 1,
+    "authors": [],
+    "environment": "*",
+    "name": "Redline",
+    "id": "redline",
+    "version": "1.0.0",
+    "description": "",
+    "icon": "logo.png",
+    "license": "ARR"
+}

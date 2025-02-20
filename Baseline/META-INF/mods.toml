@@ -1,0 +1,21 @@
+modLoader = 'lowcodefml'
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="baseline"
+displayName="Redline Base"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+description='''
+This addonpack adds cyberware.
+'''
+
+[[dependencies.test]]
+modId = "palladium"
+mandatory = true
+versionRange = ""
+ordering = "NONE"
+side = "BOTH"

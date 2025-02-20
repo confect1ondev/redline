@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "redline:item/le_fishe_au_chocolat"
+    }
+}

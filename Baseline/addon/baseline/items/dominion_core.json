@@ -1,0 +1,37 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Advanced neural operating system imprinted with the consciousness of the late Emperor Kieran Ehrveil.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Military-grade combat and defense protocols.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Capacity: 250",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Enhanced proprioceptive systems",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Advanced combat algorithms",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Emergency medical protocols",
+            "color": "#009d00"
+        },
+        {
+            "text": "- High power consumption",
+            "color": "#9d0000"
+        }
+    ],
+    "rarity": "epic",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

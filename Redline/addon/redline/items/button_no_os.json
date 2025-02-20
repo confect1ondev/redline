@@ -1,0 +1,13 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "You don't have an OS installed!",
+            "color": "#9d0000"
+        }
+    ],
+    "rarity": "common",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

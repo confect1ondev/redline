@@ -33,7 +33,7 @@ function handleOSInstallation(player, event, osConfig) {
     cyberware.installed_os = osConfig.item;
     
     if (osConfig.palladium_power) {
-        player.runCommandSilent(`superpower add ${osConfig.palladium_power} ${player.username}`);
+        Utils.server.runCommandSilent(`superpower add ${osConfig.palladium_power} ${player.username}`);
     }
     
     event.item.count--;
@@ -59,7 +59,7 @@ function handleCyberComponentInstallation(player, event, cyberwareConfig) {
         cyberware.installed_components[cyberwareConfig.type] = cyberwareConfig.item;
         
         if (cyberwareConfig.palladium_power) {
-            player.runCommandSilent(`superpower add ${cyberwareConfig.palladium_power} ${player.username}`);
+            Utils.server.runCommandSilent(`superpower add ${cyberwareConfig.palladium_power} ${player.username}`);
         }
         
         player.sendSystemMessage(

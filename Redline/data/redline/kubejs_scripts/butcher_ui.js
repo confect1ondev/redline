@@ -21,13 +21,13 @@ function createCyberwareUI(player) {
                         isConfirming = true;
                     } else {
                         if (global.CyberwareConfigManager.findOSConfig(cyberware.installed_os)?.palladium_power) {
-                            player.runCommandSilent(`superpower remove ${global.CyberwareConfigManager.findOSConfig(cyberware.installed_os).palladium_power} ${player.username}`);
+                            Utils.server.runCommandSilent(`superpower remove ${global.CyberwareConfigManager.findOSConfig(cyberware.installed_os).palladium_power} ${player.username}`);
                         }
                         
                         Object.entries(cyberware.installed_components).forEach(([type, itemId]) => {
                             const config = global.CyberwareConfigManager.findCyberwareConfig(itemId);
                             if (config?.palladium_power) {
-                                player.runCommandSilent(`superpower remove ${config.palladium_power} ${player.username}`);
+                                Utils.server.runCommandSilent(`superpower remove ${config.palladium_power} ${player.username}`);
                             }
                             player.give(Item.of(itemId));
                         });
@@ -69,7 +69,7 @@ function createCyberwareUI(player) {
                     } else {
                         const config = global.CyberwareConfigManager.findCyberwareConfig(itemId);
                         if (config?.palladium_power) {
-                            player.runCommandSilent(`superpower remove ${config.palladium_power} ${player.username}`);
+                            Utils.server.runCommandSilent(`superpower remove ${config.palladium_power} ${player.username}`);
                         }
                         cyberware.current_load -= config.load_cost;
                         delete cyberware.installed_components[type];

@@ -2,15 +2,15 @@
     "type": "palladium:default",
     "tooltip": [
         {
-            "text": "Advanced subdermal thermal plates make the wearer invulnerable to fire damage.",
+            "text": "Advanced lower body reinforcements make the wearer invulnerable to fall damage.",
             "color": "#AAAAAA"
         },
         {
-            "text": "Body Load Cost: 40",
+            "text": "Body Load Cost: 60",
             "color": "#BF40BF"
         },
         {
-            "text": "-100% Fire Damage",
+            "text": "-100% Fall Damage",
             "color": "#009d00"
         },
         {

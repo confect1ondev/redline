@@ -1,0 +1,37 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Executive-grade neural operating system.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Advanced security and performance features.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Capacity: 160",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Superior motor control",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Advanced defense protocols",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Emergency medical systems",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Enhanced response time",
+            "color": "#009d00"
+        }
+    ],
+    "rarity": "rare",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

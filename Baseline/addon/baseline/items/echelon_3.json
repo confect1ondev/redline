@@ -1,0 +1,37 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "Military-grade neural operating system.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Elite combat and tactical enhancement suite.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Capacity: 200",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Military-grade motor control",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Combat optimization protocols",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Battlefield medical systems",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Tactical assessment suite",
+            "color": "#009d00"
+        }
+    ],
+    "rarity": "epic",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

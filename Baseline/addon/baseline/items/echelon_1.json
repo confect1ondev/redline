@@ -2,23 +2,27 @@
     "type": "palladium:default",
     "tooltip": [
         {
-            "text": "Advanced neural enhancement processor.",
+            "text": "Premium civilian neural operating system.",
             "color": "#AAAAAA"
         },
         {
-            "text": "Overclocks synaptic responses for enhanced performance.",
+            "text": "Enhanced processing and security features.",
             "color": "#AAAAAA"
         },
         {
-            "text": "Body Load Cost: 50",
+            "text": "Body Load Capacity: 125",
             "color": "#BF40BF"
         },
         {
-            "text": "+ Enhanced movement speed",
+            "text": "+ Enhanced motor control",
             "color": "#009d00"
         },
         {
-            "text": "+ Improved attack speed",
+            "text": "+ Basic defense protocols",
+            "color": "#009d00"
+        },
+        {
+            "text": "+ Civilian medical suite",
             "color": "#009d00"
         }
     ],

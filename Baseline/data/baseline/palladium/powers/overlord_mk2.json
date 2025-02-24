@@ -1,0 +1,40 @@
+{
+    "name": "Overlord MK. 2 OS",
+    "icon": "baseline:overlord_mk2",
+    "abilities": {
+        "basic_stability": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_boots",
+            "title": "Improved Stabilization",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Simple gyroscopic stabilizers provide decent knockback resistance.",
+            "attribute": "minecraft:generic.knockback_resistance",
+            "amount": 0.35,
+            "operation": 0
+        },
+        "basic_combat": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_sword",
+            "title": "Basic Combat Suite",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Elementary targeting assistance enhances strike effectiveness.",
+            "attribute": "minecraft:generic.attack_damage",
+            "amount": 1.0,
+            "operation": 0
+        },
+        "basic_reflexes": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:clock",
+            "title": "Basic Reflexes",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Simple neural enhancements provide a minor speed boost.",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.1,
+            "operation": 2
+        }
+    }
+  }
+  

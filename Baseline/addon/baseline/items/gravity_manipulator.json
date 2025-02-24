@@ -2,11 +2,7 @@
     "type": "palladium:default",
     "tooltip": [
         {
-            "text": "Advanced neural enhancement processor.",
-            "color": "#AAAAAA"
-        },
-        {
-            "text": "Overclocks synaptic responses for enhanced performance.",
+            "text": "Short-range gravity manipulation system allows controlled hovering.",
             "color": "#AAAAAA"
         },
         {
@@ -14,12 +10,12 @@
             "color": "#BF40BF"
         },
         {
-            "text": "+ Enhanced movement speed",
+            "text": "+ Limited flight capability",
             "color": "#009d00"
         },
         {
-            "text": "+ Improved attack speed",
-            "color": "#009d00"
+            "text": "- Ground proximity required",
+            "color": "#9d0000"
         }
     ],
     "rarity": "rare",

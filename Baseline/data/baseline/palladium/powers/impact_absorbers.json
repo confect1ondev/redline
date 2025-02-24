@@ -1,0 +1,29 @@
+{
+    "name": "Impact Absorbers",
+    "icon": "baseline:thermal_plating",
+    "abilities": {
+        "fire_immunity": {
+            "type": "palladium:damage_immunity",
+            "icon": "minecraft:feather",
+            "title": "Fall Immunity",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Your impact absorbers make you invincible to fall damage.",
+            "damage_sources": [
+                "minecraft:is_fall"
+            ]
+        },
+        "thermal_weight": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_boots",
+            "title": "Extra Weight",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "The weight of the extra support reduces your movement speed.",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": 0.03,
+            "operation": 2
+        }
+    }
+  }
+  

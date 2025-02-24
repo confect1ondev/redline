@@ -1,9 +1,17 @@
 {
     "item.baseline.overlord_mk1": "Overlord MK.1",
+    "item.baseline.overlord_mk2": "Overlord MK.2",
     "item.baseline.dominion_core": "Dominion Core",
+    "item.baseline.echelon_1": "Echelon I",
+    "item.baseline.echelon_2": "Echelon II",
+    "item.baseline.echelon_3": "Echelon III",
 
+    "item.baseline.gravity_manipulator": "Gravity Manipulator",
+    "item.baseline.gravity_manipulator_2": "Gravity Manipulator MK.2",
     "item.baseline.neural_overclock": "Neural Overclock",
     "item.baseline.hydraulic_tendons": "Hydraulic Tendons",
     "item.baseline.thermal_plating": "Thermal Plating",
-    "item.baseline.plasma_palm": "Plasma Palm"
+    "item.baseline.plasma_palm": "Plasma Palm",
+    "item.baseline.dimensional_stabilizer": "Dimensional Stabilizer",
+    "item.baseline.impact_absorbers": "Impact Absorbers"
 }

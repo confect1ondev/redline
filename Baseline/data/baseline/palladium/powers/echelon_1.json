@@ -1,0 +1,28 @@
+{
+    "name": "Echelon I OS",
+    "icon": "baseline:echelon_1",
+    "abilities": {
+        "enhanced_stability": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_boots",
+            "title": "Basic Stability",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Basic proprioception enhances balance.",
+            "attribute": "minecraft:generic.knockback_resistance",
+            "amount": 0.1,
+            "operation": 0
+        },
+        "combat_assistance": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_sword",
+            "title": "Combat Assistance",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Basic combat optimization enhances strike power.",
+            "attribute": "minecraft:generic.attack_damage",
+            "amount": 0.5,
+            "operation": 0
+        }
+    }
+}

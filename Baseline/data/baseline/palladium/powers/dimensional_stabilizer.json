@@ -1,0 +1,25 @@
+{
+    "name": "Dimensional Stabilizer",
+    "icon": "baseline:dimensional_stabilizer",
+    "abilities": {
+        "ender_chest": {
+            "type": "baseline:enderchest",
+            "icon": "minecraft:ender_chest",
+            "title": "Dimensional Stabilizer",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Access a personal pocket dimension to store your items.",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:action",
+                        "cooldown": 0,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+                ]
+            }
+        }
+    }
+}

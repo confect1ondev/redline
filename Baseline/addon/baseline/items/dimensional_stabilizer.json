@@ -1,0 +1,21 @@
+{
+    "type": "palladium:default",
+    "tooltip": [
+        {
+            "text": "A dimensional stabilizer that allows you to reach into a pocket dimension to store items.",
+            "color": "#AAAAAA"
+        },
+        {
+            "text": "Body Load Cost: 30",
+            "color": "#BF40BF"
+        },
+        {
+            "text": "+ Portable ender chest",
+            "color": "#009d00"
+        }
+    ],
+    "rarity": "rare",
+    "creative_mode_tab": {
+        "tab": "minecraft:ingredients"
+    }
+}

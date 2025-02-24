@@ -1,46 +1,46 @@
 {
-    "name": "Dominion Core OS",
-    "icon": "baseline:dominion_core",
+    "name": "Echelon II OS",
+    "icon": "baseline:echelon_2",
     "energy_bars": {
         "system_power": {
-            "max": 800,
+            "max": 200,
             "auto_increase_per_tick": 1,
-            "auto_increase_interval": 10,
+            "auto_increase_interval": 25,
             "color": "#ff0000"
         }
     },
     "abilities": {
         "enhanced_stability": {
             "type": "palladium:attribute_modifier",
-            "icon": "minecraft:netherite_boots",
+            "icon": "minecraft:diamond_boots",
             "title": "Enhanced Stability",
             "hidden": false,
             "hidden_in_bar": false,
-            "description": "Enhanced proprioception provides superior balance and resistance.",
+            "description": "Improved proprioception provides better balance.",
             "attribute": "minecraft:generic.knockback_resistance",
-            "amount": 0.3,
+            "amount": 0.2,
             "operation": 0
         },
-        "combat_algorithms": {
+        "combat_systems": {
             "type": "palladium:attribute_modifier",
-            "icon": "minecraft:netherite_sword",
-            "title": "Combat Algorithms",
+            "icon": "minecraft:diamond_sword",
+            "title": "Combat Systems",
             "hidden": false,
             "hidden_in_bar": false,
-            "description": "Optimized combat routines enhance strike precision and power.",
+            "description": "Enhanced combat routines improve strike precision.",
             "attribute": "minecraft:generic.attack_damage",
-            "amount": 1.5,
+            "amount": 1.0,
             "operation": 0
         },
-        "emergency_protocols": {
+        "medical_response": {
             "type": "palladium:healing",
             "icon": "minecraft:golden_apple",
-            "title": "Emergency Protocols",
+            "title": "Medical Response",
             "hidden": false,
             "hidden_in_bar": false,
-            "description": "Activates emergency healing protocols when health is critical.",
+            "description": "Basic medical protocols activate at low health.",
             "frequency": 1,
-            "amount": 100,
+            "amount": 10,
             "energy_bar_usage": {
                 "energy_bar": "system_power",
                 "amount": 200
@@ -49,7 +49,7 @@
                 "enabling": {
                     "type": "palladium:health",
                     "min_health": 0,
-                    "max_health": 6
+                    "max_health": 4
                 },
                 "unlocking": {
                     "type": "palladium:energy_bar",

@@ -2,24 +2,24 @@
     "type": "palladium:default",
     "tooltip": [
         {
-            "text": "Advanced neural enhancement processor.",
+            "text": "Medium-range gravity manipulation system allows controlled hovering.",
             "color": "#AAAAAA"
         },
         {
-            "text": "Overclocks synaptic responses for enhanced performance.",
-            "color": "#AAAAAA"
-        },
-        {
-            "text": "Body Load Cost: 50",
+            "text": "Body Load Cost: 60",
             "color": "#BF40BF"
         },
         {
-            "text": "+ Enhanced movement speed",
+            "text": "+ Limited flight capability",
             "color": "#009d00"
         },
         {
-            "text": "+ Improved attack speed",
+            "text": "+ Enhanced maneuverability",
             "color": "#009d00"
+        },
+        {
+            "text": "- Ground proximity required",
+            "color": "#9d0000"
         }
     ],
     "rarity": "rare",

@@ -1,0 +1,24 @@
+{
+    "name": "Gravity Manipulator",
+    "icon": "minecraft:leather_boots",
+    "abilities": {
+        "gravity_control": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:feather",
+            "title": "Gravity Manipulator",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "description": "Local gravity manipulation allows controlled hovering and flight near the ground.",
+            "attribute": "palladium:flight_speed",
+            "amount": 0.6,
+            "operation": 0,
+            "conditions": {
+                "enabling": {
+                    "type": "baseline:ground_distance",
+                    "min": 0,
+                    "max": 10
+                }
+            }
+        }
+    }
+}

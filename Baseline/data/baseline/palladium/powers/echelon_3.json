@@ -1,11 +1,11 @@
 {
-    "name": "Dominion Core OS",
-    "icon": "baseline:dominion_core",
+    "name": "Echelon III OS",
+    "icon": "baseline:echelon_3",
     "energy_bars": {
         "system_power": {
-            "max": 800,
+            "max": 400,
             "auto_increase_per_tick": 1,
-            "auto_increase_interval": 10,
+            "auto_increase_interval": 20,
             "color": "#ff0000"
         }
     },
@@ -13,12 +13,12 @@
         "enhanced_stability": {
             "type": "palladium:attribute_modifier",
             "icon": "minecraft:netherite_boots",
-            "title": "Enhanced Stability",
+            "title": "Military Stability",
             "hidden": false,
             "hidden_in_bar": false,
-            "description": "Enhanced proprioception provides superior balance and resistance.",
+            "description": "Military-grade proprioception provides superior balance.",
             "attribute": "minecraft:generic.knockback_resistance",
-            "amount": 0.3,
+            "amount": 0.25,
             "operation": 0
         },
         "combat_algorithms": {
@@ -27,9 +27,9 @@
             "title": "Combat Algorithms",
             "hidden": false,
             "hidden_in_bar": false,
-            "description": "Optimized combat routines enhance strike precision and power.",
+            "description": "Military combat routines enhance combat effectiveness.",
             "attribute": "minecraft:generic.attack_damage",
-            "amount": 1.5,
+            "amount": 1.25,
             "operation": 0
         },
         "emergency_protocols": {
@@ -38,7 +38,7 @@
             "title": "Emergency Protocols",
             "hidden": false,
             "hidden_in_bar": false,
-            "description": "Activates emergency healing protocols when health is critical.",
+            "description": "Military medical protocols activate when health is critical.",
             "frequency": 1,
             "amount": 100,
             "energy_bar_usage": {
@@ -49,7 +49,7 @@
                 "enabling": {
                     "type": "palladium:health",
                     "min_health": 0,
-                    "max_health": 6
+                    "max_health": 5
                 },
                 "unlocking": {
                     "type": "palladium:energy_bar",
